@@ -6,7 +6,7 @@ import requests
 from Adafruit_IO import *
 
 #connect to ada fruit dashboard
-aio = Client('Kixxie','aio_wZDo830lu7XEfbSOBj6R4lsnXj80')
+aio = Client('Kixxie','##')
 
 def send_score(score):
     filename = "test.pdf"  # Replace with actual filename
